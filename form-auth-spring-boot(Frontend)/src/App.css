@@ -1,0 +1,41 @@
+.App {
+  background: linear-gradient(135deg, #120053 0%, #667eea 100%);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px);
+}
+
+.btn-primary {
+  background-color: #FFD700 !important;
+  border-color: #FFD700 !important;
+  color: #000 !important;
+}
+
+.btn-primary:hover {
+  background-color: #FFA500 !important;
+  border-color: #FFA500 !important;
+  color: #000 !important;
+}
+
+.form-control:focus {
+  border-color: #FFD700 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25) !important;
+}
+
+.form-label {
+  color: #ffffff !important;
+}
+
+.card-body h2 {
+  color: #ffffff !important;
+}
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
